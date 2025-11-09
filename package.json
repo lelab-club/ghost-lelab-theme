@@ -1,8 +1,8 @@
 {
-    "name": "source-i18n",
+    "name": "lelab",
     "description": "A default theme for the Ghost publishing platform",
     "demo": "https://source.ghost.io",
-    "version": "1.5.0-1i18n",
+    "version": "1.5.0",
     "engines": {
         "ghost": ">=5.0.0"
     },
