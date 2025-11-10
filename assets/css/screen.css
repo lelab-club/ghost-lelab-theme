@@ -2750,7 +2750,7 @@ body[class*=" gh-font-heading"]:not(.gh-font-heading-fira-sans):not(.gh-font-hea
 /* ---------------------------------------------------------- */
 
 .gh-footer {
-    /* margin-top: 12vw; */
+    margin-top: 12vw;
     font-size: 1.5rem;
     color: var(--color-darker-gray);
 }
@@ -3366,7 +3366,7 @@ body[class*=" gh-font-heading"]:not(.gh-font-heading-fira-sans):not(.gh-font-hea
     }
 
     100% {
-        transform: translateX(calc(-250px * 5));
+        transform: translateX(calc(-250px * 5)); /* Number of unique logos */
     }
 }
 
@@ -3376,7 +3376,7 @@ body[class*=" gh-font-heading"]:not(.gh-font-heading-fira-sans):not(.gh-font-hea
     }
 
     100% {
-        transform: translateX(calc(-250px * 5));
+        transform: translateX(calc(-250px * 5)); /* Number of unique logos */
     }
 }
 
@@ -3413,7 +3413,7 @@ body[class*=" gh-font-heading"]:not(.gh-font-heading-fira-sans):not(.gh-font-hea
     -webkit-animation: scroll 40s linear infinite;
     animation: scroll 40s linear infinite;
     display: flex;
-    width: calc(250px * 10);
+    width: calc(250px * 10); /* Number of total (double) logos */
 }
 
 .slider .slide {
